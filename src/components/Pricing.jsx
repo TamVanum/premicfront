@@ -105,7 +105,7 @@ function PricingContent() {
 
 
 
-          <Button href="index.js" variant="outlined" sx={{ my: 1, mx: 1.5 }}>
+          <Button href="../signing.js" variant="outlined" sx={{ my: 1, mx: 1.5 }}>
             Home
           </Button>
 
@@ -167,7 +167,7 @@ function PricingContent() {
                       ${tier.price}
                     </Typography>
                     <Typography variant="h6" color="text.secondary">
-                      /mo
+                      /m
                     </Typography>
                   </Box>
                   <ul>

@@ -7,12 +7,13 @@ import AppBarPremic from './components/AppBarPremic.jsx';
 import SignIn from './components/SignIn';
 import SignUp from './components/SignUp';
 import Pricing from './components/Pricing';
+import App from './components/App';
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-      
       <AppBarPremic/>
       <Planner/>
       <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>

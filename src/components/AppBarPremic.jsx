@@ -12,9 +12,10 @@ import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
+import BusAlertIcon from '@mui/icons-material/BusAlert';
 
 const pages = ['Suscripciones'];
-const settings = ['Logout'];
+const settings = ['Cerrar Sesion'];
 
 function AppBarPremic() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -39,7 +40,7 @@ function AppBarPremic() {
     <AppBar position="static">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
+          <BusAlertIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
           <Typography
             variant="h6"
             noWrap
@@ -55,7 +56,7 @@ function AppBarPremic() {
               textDecoration: 'none',
             }}
           >
-            LOGO
+            Premic
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
@@ -111,7 +112,7 @@ function AppBarPremic() {
               textDecoration: 'none',
             }}
           >
-            LOGO
+            Premic
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (
