@@ -1,17 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import Itinerary from './components/Itinerary.jsx';
+import Planner from './components/Planner.jsx';
+import AppBarPremic from './components/AppBarPremic.jsx';
+import SignIn from './components/SignIn';
+import SignUp from './components/SignUp';
+import Pricing from './components/Pricing';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+      
+      <AppBarPremic/>
+      <Planner/>
+      <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+      <Itinerary />
+
+       
   </React.StrictMode>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
